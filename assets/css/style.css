@@ -18,7 +18,7 @@ h1, h2, h3 {
 
 section, aside {
     margin-top: 25px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     border-color: #dddddd;
     border-style: solid;
     border-width: 1px;
@@ -150,7 +150,7 @@ section img {
     justify-content: center;
     position: relative;
     bottom: 100px;
-    left: -50px;
+    left: -40px;
     
 }
 
@@ -162,19 +162,19 @@ form {
 }
 form input {
     width: 100%;
-    padding: 3% 90% 3% 0%;
+    padding: 7px 0px 7px 0px;
     font-size: 14px;
 }
 
 form p {
     margin-left: 15px;
     margin-bottom: 15px;
-
+    width: 90%;
 }
 
 textarea {
     width: 100%;
-    padding-right: 90%;
+    /*padding-right: 100%;*/
     font-size: 14px;
     height: 150px;
     margin-bottom: 30px;
@@ -213,8 +213,10 @@ footer {
 
     aside {
         float: none;
-        width: 100%;
-        margin: 0 auto;
+        width: 80%;
+        margin: 25px auto;
+        text-align: left;
+        padding-left: 30px;
     }
 
     section p {
@@ -227,9 +229,7 @@ footer {
         width: 200px;
         margin-left: 15px;
     }
-    footer {
-        width: 100%;
-    }
+    
     h1 {
         margin-left: 5%;
         margin-right: 15%;
@@ -247,6 +247,10 @@ footer {
         width: 200px;
         left: 30px;
 
+    }
+
+    form p {
+        width: 90%;
     }
 
 
@@ -279,7 +283,19 @@ footer {
 
     section {
         width: 80%;
+        margin: 30px auto 0px auto;
+    }
+
+    section img {
+        float: none;
+        width: 80%;
+        padding: 15px;
         margin: 0 auto;
+    }
+    section p {
+        float: none;
+        padding-left: 15px;
+        width: 80%;
     }
 
     .flexbox img {
@@ -288,7 +304,11 @@ footer {
     }
     .flexbox p {
         width: 80%;
-        left: 5px;
+        left: 40px;
+        
+    }
+    .flexbox a {
+        text-decoration: none; 
     }
 
 }
@@ -297,8 +317,10 @@ footer {
     header {
         position: static;
     }
+
     section p {
-        float: left;
+        display: block;
+        clear: both;
     }
 
 }

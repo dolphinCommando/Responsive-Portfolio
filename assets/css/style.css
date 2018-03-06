@@ -18,7 +18,7 @@ h1, h2, h3 {
 
 section, aside {
     margin-top: 25px;
-    margin-bottom: 100px;
+    margin-bottom: 25px;
     border-color: #dddddd;
     border-style: solid;
     border-width: 1px;
@@ -80,7 +80,7 @@ a[href="index.html"], a[href="portfolio.html"] {
 
 
 h1 {
-    margin-left: 10%;
+    margin-left: 100px;
     margin-right: 25%;
     font-size: 36px;
     height: 100%;
@@ -208,7 +208,7 @@ footer {
 @media screen and (max-width: 980px) {
     section {
         float: none;
-        width: 650px;
+        width: 80%;
     }
 
     aside {
@@ -282,7 +282,6 @@ footer {
     }
 
     section {
-        width: 80%;
         margin: 30px auto 0px auto;
     }
 

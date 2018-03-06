@@ -153,23 +153,40 @@ section img {
     left: -50px;
     
 }
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+form input {
+    width: 100%;
+    padding: 3% 90% 3% 0%;
+    font-size: 14px;
+}
+
 form p {
-    float: left; 
-    display: block;
     margin-left: 15px;
     margin-bottom: 15px;
 
 }
+
 textarea {
-    width: 300px;
+    width: 100%;
+    padding-right: 90%;
+    font-size: 14px;
     height: 150px;
+    margin-bottom: 30px;
 }
 
 input[type=submit] {
     color: #ffffff;
     background-color: #4aaaa5;
+    font-size: 16px;
     padding: 10px 30px 10px 30px;
-    margin-left: 15px;
+    width: 125px;
+    margin-left: 20px;
     cursor: pointer; 
     display: block;
     clear: both;
@@ -191,17 +208,14 @@ footer {
 @media screen and (max-width: 980px) {
     section {
         float: none;
-        width: 100%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 650px;
     }
 
     aside {
         float: none;
         width: 100%;
-        margin-left: 0px;
+        margin: 0 auto;
     }
-
 
     section p {
         float: right;
@@ -226,12 +240,13 @@ footer {
     }
 
     .flexbox img {
-        width: 35%;
+        width: 200px;
     }
 
     .flexbox p {
-        width: 35%;
-        left: -500px;
+        width: 200px;
+        left: 30px;
+
     }
 
 
@@ -260,6 +275,20 @@ footer {
         margin-left: 0px;
         margin-right: 0px;
         justify-content: center;
+    }
+
+    section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .flexbox img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .flexbox p {
+        width: 80%;
+        left: 5px;
     }
 
 }
